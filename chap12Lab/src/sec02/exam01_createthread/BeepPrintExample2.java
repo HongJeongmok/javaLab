@@ -8,7 +8,7 @@ public class BeepPrintExample2 {
 		Runnable beepTask = new BeepTask();
 		Thread thread = new Thread(beepTask);
 		
-		//how2
+		//how2 : 익명 구현객체를 이용함
 		/*Thread thread = new Thread(new Runnable() {
 			@Override
 			public void run() {

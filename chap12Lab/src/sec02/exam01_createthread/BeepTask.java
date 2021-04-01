@@ -2,6 +2,7 @@ package sec02.exam01_createthread;
 
 import java.awt.Toolkit;
 
+// Runnable 인터페이스 구현클래스
 public class BeepTask implements Runnable {	
 	public void run() {		
 		Toolkit toolkit = Toolkit.getDefaultToolkit();	

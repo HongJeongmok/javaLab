@@ -17,11 +17,12 @@ public class BeepPrintExample3 {
 					try { Thread.sleep(500); } catch(Exception e) {}
 				}
 			}
-		};*/
+		};*/ 
 		
 		
-		thread.start();		
+		thread.start();  // 작업 thread가 수행
 		
+		// Main thread가 수행
 		for(int i=0; i<5; i++) {
 			System.out.println("띵");
 			try { Thread.sleep(500); } catch(Exception e) {}
