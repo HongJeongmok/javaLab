@@ -1,5 +1,6 @@
 package sec03.exam01_multi_type_parameter;
 
+// 제너릭 타입 : 타입을 파라메터로 갖는 클래스 or 인터페이스
 public class Product<T, M> {
 	private T kind;
 	private M model;

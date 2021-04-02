@@ -7,7 +7,7 @@ public class BoxExample {
 		String str = box1.get();
 
 		Box<Integer> box2 = new Box<Integer>();
-		box2.set(6);
-		int value = box2.get();
+		box2.set(6);  // Boxing, int -> Integer
+		int value = box2.get();  // Unboxing, int -> Integer
 	}
 }
