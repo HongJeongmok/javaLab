@@ -27,6 +27,18 @@ public class FunctionExample1 {
 	
 	public static void main(String[] args) {
 		System.out.println("[학생 이름]");
+		
+		/*
+		// 익명객체를 매개변수에 대입한다.
+		printString(new Function<Student, String>() {
+			@Override
+			public String apply(Student t) {
+				return t.getName();
+			}
+		});
+		*/
+		
+		// 람다식으로 매개변수에 대입한다.
 		printString( t -> t.getName() );
 		
 		System.out.println("[영어 점수]");
