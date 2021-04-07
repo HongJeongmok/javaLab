@@ -8,10 +8,12 @@ public class SumAvg {
 		
 		for(int i=1; i<=100; i++) {
 			sum += i;
-			avg = (double)sum/100;
+			avg = (double)sum/100;  // sum / 100.0 소수점
 		}
 		System.out.println("1부터 100까지의 합 : "+ sum);
-		System.out.println("1부터 100까지의 평균 : "+ (String.format("%.2f",  avg)));  // 소수점 두자리까지 출력하는 방법은 검색했습니다.
+		System.out.printf("1부터 100까지의 평균 : "+ "%.2f%n",  avg);  // 소수점 두자리까지 나타내기
+		System.out.println("1부터 100까지의 평균 : "+ (String.format("%.2f",  avg)));  // 소수점 두자리까지 나타내기
+		
 		}
 
 	}

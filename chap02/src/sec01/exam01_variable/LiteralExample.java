@@ -8,7 +8,7 @@ public class LiteralExample {
 		// TODO Auto-generated method stub
 		
 		// 변수 선언
-		// 자료형 변수형 = 리터럴;
+		// 자료형 변수 = 리터럴;
 		int var1 = 10;
 		
 		// 표준입출력(콘솔)에서 var1 변수를 출력한다.
