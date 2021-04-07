@@ -10,7 +10,7 @@ public class ArraysAsListExample {
 			System.out.println(name);
 		}
 		
-		List<Integer> list2 = Arrays.asList(1, 2, 3);
+		List<Integer> list2 = Arrays.asList(1, 2, 3);  // Integer 객체의 주소값을 하나씩 가짐
 		for(int value : list2) {
 			System.out.println(value);
 		}
