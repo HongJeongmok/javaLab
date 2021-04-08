@@ -8,8 +8,8 @@ public class PropertiesExample {
 	public static void main(String[] args) throws Exception {
 		Properties properties  = new Properties();
 		String path = PropertiesExample.class.getResource("database.properties").getPath();
-		path = URLDecoder.decode(path, "utf-8");
-		properties.load(new FileReader(path));
+		path = URLDecoder.decode(path, "utf-8");  // 파일위치를 디코딩
+		properties.load(new FileReader(path));  // 해당 파일을 읽어 MAP<String, String>구조로 만들어 준다.<Key, Value>
 		
 		String driver = properties.getProperty("driver");
 		String url = properties.getProperty("url");
