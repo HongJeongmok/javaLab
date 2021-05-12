@@ -6,7 +6,7 @@ public class StringEqualsExample {
 		// TODO Auto-generated method stub
 		String strVal1 = "½Å¹ÎÃ¶";
 		String strVal2 = "½Å¹ÎÃ¶";
-		
+		 
 		if (strVal1==strVal2) {
 			System.out.println("strVal1°ú strVal2´Â ÂüÁ¶°¡ °°À½");
 		} else {
