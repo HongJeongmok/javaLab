@@ -12,7 +12,7 @@ public class AppMain extends Application {
 	public void init() throws Exception {
 		System.out.println(Thread.currentThread().getName()+": init() 호출");
 	}
-	
+	 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		System.out.println(Thread.currentThread().getName()+": start() 호출");

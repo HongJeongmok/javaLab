@@ -8,7 +8,7 @@ public class Hello {
 		System. out .println("1. 이름 : 홍길동");
 		System. out .println("2. 전화번호 : 010-****-****");
 		System. out .println("3. 희망사항 : 결석없이 수료");
-		
+		 
 	}
 
 }

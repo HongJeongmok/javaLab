@@ -15,7 +15,7 @@ public class FileSystemExample {
 			System.out.println("사용 중인 공간: \t" + (store.getTotalSpace() - store.getUnallocatedSpace()) + " 바이트");
 			System.out.println("사용 가능한 공간: \t" + store.getUsableSpace() + " 바이트");
 			System.out.println();
-		}
+		} 
 		
 		System.out.println("파일 구분자: " + fileSystem.getSeparator());
 		System.out.println();

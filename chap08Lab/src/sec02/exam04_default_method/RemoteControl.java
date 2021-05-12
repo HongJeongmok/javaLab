@@ -7,7 +7,7 @@ public interface RemoteControl {
 	void turnOn();
 	void turnOff();
 	void setVolume(int volume);
-	
+	 
 	// 디폴트메소드
 	default void setMute(boolean mute) {
 		if(mute) {

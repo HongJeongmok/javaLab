@@ -7,7 +7,7 @@ public class FieldInitValue {
 	short shortField;
 	int intField;
 	long longField;
-	
+	 
 	boolean booleanField;
 	char charField;
 	

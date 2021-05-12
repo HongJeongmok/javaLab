@@ -13,7 +13,7 @@ public class ReadExample1 {
 			if(readData == -1) break;
 			System.out.print((char)readData);
 		}
-		
+		 
 		reader.close();
 	
 	}
