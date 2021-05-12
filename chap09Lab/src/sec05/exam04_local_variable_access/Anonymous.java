@@ -16,7 +16,7 @@ public class Anonymous {
 		
 		// 로컬변수 calc에 익명구현객체를 대입시킨다.
 		Calculatable calc = new Calculatable() {
-
+ 
 			@Override
 			public int sum() {
 				int result = field + arg1 + arg2 + var1 + var2;

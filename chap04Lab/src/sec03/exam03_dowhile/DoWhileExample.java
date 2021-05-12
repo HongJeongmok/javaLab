@@ -41,7 +41,7 @@ public class DoWhileExample {
 		
 		// Scanner 클래스 타입인 scanner 변수에 Scanner 객체 생성하여 대입시킨다.
 		Scanner sanner = new Scanner(System.in);
-		// String 클래스 타입
+		// String 클래스 타입 
 		String inputString;
 		
 		do {

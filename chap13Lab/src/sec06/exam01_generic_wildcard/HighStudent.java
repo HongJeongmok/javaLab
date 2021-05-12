@@ -6,7 +6,7 @@ public class HighStudent extends Student {
 		super(name);
 	}
 }
-=======
+==========
 package sec06.exam01_generic_wildcard;
 
 public class HighStudent extends Student {
