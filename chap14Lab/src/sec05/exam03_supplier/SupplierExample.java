@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec05.exam03_supplier;
 
 import java.util.function.IntSupplier;
@@ -23,3 +24,30 @@ public class SupplierExample {
 		System.out.println("´«ÀÇ ¼ö: " + num);
 	}
 }
+=======
+package sec05.exam03_supplier;
+
+import java.util.function.IntSupplier;
+
+public class SupplierExample {
+	public static void main(String[] args) {
+		// ÀÍ¸í±¸Çö°´Ã¼
+		IntSupplier intSupplier = new IntSupplier() {
+			@Override
+			public int getAsInt() {
+				int num = (int) (Math.random() * 6) + 1;
+				return num;
+			}
+		};
+		
+		// ¶÷´Ù½Ä
+		intSupplier = () -> {
+			int num = (int) (Math.random() * 6) + 1;
+			return num;
+		};
+		
+		int num = intSupplier.getAsInt();
+		System.out.println("´«ÀÇ ¼ö: " + num);
+	}
+}
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

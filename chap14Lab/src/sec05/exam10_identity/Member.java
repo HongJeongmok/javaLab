@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec05.exam10_identity;
 
 public class Member {
@@ -12,3 +13,19 @@ public class Member {
 	public String getName() { return name; }
 	public String getId() { return id; }
 }
+=======
+package sec05.exam10_identity;
+
+public class Member {
+	private String name;
+	private String id;
+	
+	public Member(String name, String id) {
+		this.name = name;
+		this.id = id;
+	}
+
+	public String getName() { return name; }
+	public String getId() { return id; }
+}
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

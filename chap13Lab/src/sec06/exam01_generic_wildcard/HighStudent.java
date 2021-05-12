@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec06.exam01_generic_wildcard;
 
 public class HighStudent extends Student {
@@ -5,3 +6,12 @@ public class HighStudent extends Student {
 		super(name);
 	}
 }
+=======
+package sec06.exam01_generic_wildcard;
+
+public class HighStudent extends Student {
+	public HighStudent(String name) {
+		super(name);
+	}
+}
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec06.exam02_yield;
 
 public class ThreadB extends Thread {	
@@ -16,3 +17,23 @@ public class ThreadB extends Thread {
 	}
 }
 
+=======
+package sec06.exam02_yield;
+
+public class ThreadB extends Thread {	
+	public boolean stop = false;
+	public boolean work = true;
+	
+	public void run() {
+		while(!stop) {
+			if(work) {
+				System.out.println("ThreadB 작업 내용");
+			} else {
+				Thread.yield();
+			}
+		}
+		System.out.println("ThreadB 종료");
+	}
+}
+
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

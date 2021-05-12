@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec06.exam01_generic_wildcard;
 
 public class Person {
@@ -10,3 +11,17 @@ public class Person {
 	public String getName() { return name; }
 	public String toString() { return name; }
 }
+=======
+package sec06.exam01_generic_wildcard;
+
+public class Person {
+	private String name;
+	
+	public Person(String name) {
+		this.name = name;
+	}
+
+	public String getName() { return name; }
+	public String toString() { return name; }
+}
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

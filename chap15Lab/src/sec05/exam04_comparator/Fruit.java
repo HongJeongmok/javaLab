@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec05.exam04_comparator;
 
 public class Fruit {
@@ -9,3 +10,16 @@ public class Fruit {
 		this.price = price;
 	}
 }
+=======
+package sec05.exam04_comparator;
+
+public class Fruit {
+	public String name;
+	public int price;
+	
+	public Fruit(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+}
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec04.exam02_local_variable;
 
 public class UsingLocalVariableExample {
@@ -7,3 +8,14 @@ public class UsingLocalVariableExample {
 	}
 }
 
+=======
+package sec04.exam02_local_variable;
+
+public class UsingLocalVariableExample {
+	public static void main(String... args) {
+		UsingLocalVariable ulv = new UsingLocalVariable();
+		ulv.method(20);
+	}
+}
+
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

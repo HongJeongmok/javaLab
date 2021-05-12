@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec06.exam03_join;
 
 public class SumThread extends Thread {	
@@ -18,3 +19,25 @@ public class SumThread extends Thread {
 	}
 }
 
+=======
+package sec06.exam03_join;
+
+public class SumThread extends Thread {	
+	private long sum;
+	
+	public long getSum() {
+		return sum;
+	}
+
+	public void setSum(long sum) {
+		this.sum = sum;
+	}
+
+	public void run() {
+		for(int i=1; i<=100; i++) {
+			sum+=i;
+		}
+	}
+}
+
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git

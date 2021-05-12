@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package sec06.exam05_wait_notify;
 
 public class ConsumerThread extends Thread {
@@ -15,3 +16,22 @@ public class ConsumerThread extends Thread {
 	}
 }
 
+=======
+package sec06.exam05_wait_notify;
+
+public class ConsumerThread extends Thread {
+	private DataBox dataBox;
+
+	public ConsumerThread(DataBox dataBox) {
+		this.dataBox = dataBox;
+	}
+	
+	@Override
+	public void run() {
+		for(int i=1; i<=3; i++) {
+			String data = dataBox.getData();
+		}
+	}
+}
+
+>>>>>>> branch 'master' of https://github.com/HongJeongmok/javaLab.git
